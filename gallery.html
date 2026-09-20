@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hotspot Gallery</title>
+<link rel="stylesheet" href="nav.css">
+<style>
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    margin: 30px;
+    text-align: center;
+}
+h1 {
+    color: red;
+    background-color: lightyellow;
+    padding: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.gallery img {
+    width: 220px;
+    height: 140px;
+    border: 3px solid darkred;
+    margin: 12px;
+    border-radius: 8px;
+    transition: transform 0.4s;
+}
+.gallery img:hover {
+    transform: scale(1.2);
+}
+</style>
+</head>
+<body>
+<h1>Regional Heatwave Hotspot Gallery</h1>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="navigation.html">Menu</a></li>
+<li><a href="forecast.html">Forecast</a></li>
+<li><a href="subscribe.html">Subscribe</a></li>
+</ul>
+</nav>
+<p>Hover on a region image to zoom it.</p>
+<div class="gallery">
+<img src="north.png" alt="North Zone hotspot">
+<img src="central.png" alt="Central Zone hotspot">
+<img src="south.png" alt="South Zone hotspot">
+<img src="west.png" alt="West Zone hotspot">
+</div>
+</body>
+</html>

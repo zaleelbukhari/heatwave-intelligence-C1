@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Effects</title>
+<style>
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    margin: 30px;
+    text-align: center;
+}
+h1 {
+    color: red;
+    background-color: lightyellow;
+    padding: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+.offer {
+    width: 520px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: orange;
+    color: darkred;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 12px;
+    text-shadow: 2px 2px 4px yellow;
+    box-shadow: 0 0 12px red;
+    animation: glow 1.2s infinite alternate;
+}
+@keyframes glow {
+    from {
+        box-shadow: 0 0 8px red;
+        background-color: orange;
+    }
+    to {
+        box-shadow: 0 0 28px yellow;
+        background-color: gold;
+    }
+}
+.offer:hover {
+    transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+<h1>Special Heatwave Advisory</h1>
+<div class="offer">
+SEVERE HEATWAVE ALERT<br>
+Stay Indoors 12 PM - 4 PM<br>
+Drink Water Every Hour
+</div>
+<p>This box uses a CSS3 keyframe animation, text-shadow and box-shadow.</p>
+</body>
+</html>

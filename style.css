@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 30px;
+    color: black;
+}
+
+h1, h2, h3 {
+    color: darkred;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightyellow;
+    padding: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.welcome {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+footer {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 25px;
+    border-radius: 8px;
+    font-size: 14px;
+}

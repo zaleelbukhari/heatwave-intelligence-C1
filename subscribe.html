@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Advisory Subscription</title>
+<link rel="stylesheet" href="form.css">
+<style>
+body {
+    font-family: Arial;
+    background-color: lightblue;
+    margin: 30px;
+}
+h1 {
+    color: red;
+    text-align: center;
+    background-color: lightyellow;
+    padding: 15px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+</style>
+</head>
+<body>
+<h1>Heatwave Advisory Subscription Form</h1>
+<form action="#" method="post">
+<fieldset>
+<legend>Citizen Details</legend>
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name" required><br><br>
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" required><br><br>
+<label for="mobile">Mobile Number:</label><br>
+<input type="tel" id="mobile" name="mobile">
+</fieldset>
+<fieldset>
+<legend>Alert Preferences</legend>
+<label for="region">Region:</label><br>
+<select id="region" name="region">
+<option value="north">North Zone</option>
+<option value="central">Central Zone</option>
+<option value="south">South Zone</option>
+</select><br><br>
+<p>Preferred Alert Language:</p>
+<input type="radio" id="english" name="language" value="english">
+<label for="english">English</label><br>
+<input type="radio" id="hindi" name="language" value="hindi">
+<label for="hindi">Hindi</label><br>
+<input type="radio" id="marathi" name="language" value="marathi">
+<label for="marathi">Marathi</label>
+</fieldset>
+<fieldset>
+<legend>Alert Types</legend>
+<input type="checkbox" id="sms" name="alerttype" value="sms">
+<label for="sms">SMS</label><br>
+<input type="checkbox" id="emailalert" name="alerttype" value="email">
+<label for="emailalert">Email</label><br>
+<input type="checkbox" id="app" name="alerttype" value="app">
+<label for="app">App Notification</label>
+</fieldset>
+<input type="submit" value="Subscribe">
+<input type="reset" value="Clear Form">
+</form>
+</body>
+</html>

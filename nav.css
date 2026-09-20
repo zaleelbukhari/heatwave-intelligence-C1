@@ -1,0 +1,24 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: darkred;
+    text-align: center;
+    border-radius: 8px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 14px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
